@@ -1,0 +1,81 @@
+ENGLISH/INGLÉS
+*****************************
+Getting Started
+
+Create an account on https://github.com/. Star the repository or send me an email with your username, so I can add you as a collaborator to this repository.
+Terminology
+
+    Repository: Where your project (including all files across all branches) is stored.
+    Commit: Saves the changes you have made to the files in the repository since the last time you committed. Remember that commits are local until you push them to the repository. When you commit, you are essentially “staging” the changes you make to be later pushed to the remote branches of the repository for other users to see publicly.
+    Branch: By creating a new Branch, you make a new copy of the repository in its current state, allowing you to develop and modify features without changing other branches/versions. When a branch is completed or when it reaches a desired checkpoint, it can be merged with other branches.
+    Push: Saves local commits to the remote repository.
+    Pull: Retrieve the most recent versions of the files in the repository and merge . Branches that you pull will be merged into the current local branch, so make sure that you only pull from the remote branch that corresponds to the branch you are currently working in.
+    Fetch: Retrieve the most recent version of the files in remote branches without merging them into your local branches. You can do a git fetch at any time to update your local copy of a remote branch. This operation never changes any of your own branches and is safe to do without changing your working copy.
+    Checkout Revision: Copies a remote branch to your local repository (or switches to a different local branch).
+
+Cloning the Robot Code Repository in NetBeans
+In NetBeans, navigate to Team > Clone (or Team > Git > Clone). Copy and paste the Repository URL (found on the GitHub page) into the text field that appears. Enter your login information and click Next.
+
+On the next screen, you will see a list of “Remote Branches”. Select all of the branches and hit Next.
+
+Enter the local directory in which you want to store local copies of the repository. Keep the clone name the same, and use the settings below.
+
+Click “Finish”, and NetBeans should prompt you to open any projects found in the repository.
+Configuring Your NetBeans Workspace
+
+The Git Repository Browser in NetBeans will make working with Git much easier. To show the Repository Browser, navigate to Team > Git > Repository Browser.
+Creating a New Branch
+
+When you’re developing a new feature for the robot, create a new branch. You should not work directly out of the master branch. To create a new branch, right click on a remote branch in the repository browser and choose “Checkout Revision”. The current working branch will appear in bold in the repository browser.
+Committing Changes
+
+Before pushing modified code to a remote branch, you must first locally commit the changes you have made. To commit your changes, right click on your NetBeans project or a file in your project and select Git > Commit. 
+
+Before committing, be sure to enter a commit message.
+Pushing
+
+When you want to update the remote repository with changes you have made locally, you must Push your changes. You can only push after you’ve Committed or Merged Branches. To push, right click on your project and select Git > Remote > Push. Ensure that the Git repository URL is correct and hit Next. Select the local branches you’d like to push to the remote repository and hit Next. Hit Finish again.
+Merging Branches
+
+When you’re done working on a particular feature in a branch other than “master”, you should merge your changes with the master branch. To do this, right click on the master branch in the repository browser and select Checkout Revision. Click Checkout, then right click on the branch you’d like to merge with the master branch and select Merge Revision. Click through the prompts and then Push to make your changes public.
+
+SPANISH/ESPAÑOL
+*****************************
+Empezando
+
+Cree una cuenta en https://github.com/. Inicie el repositorio o envíeme un correo electrónico con su nombre de usuario para poder agregarle como colaborador a este repositorio.
+Terminología
+
+    Repositorio: donde se almacena su proyecto (incluidos todos los archivos de todas las sucursales).
+    Confirmar: Guarda los cambios que ha realizado en los archivos del repositorio desde la última vez que se comprometió. Recuerde que los commits son locales hasta que usted los empuja al repositorio. Cuando te comprometes, estás esencialmente "preparando" los cambios que hagas para luego ser enviados a las ramas remotas del repositorio para que otros usuarios lo vean públicamente.
+    Sucursal: Al crear una nueva Sucursal, crea una nueva copia del repositorio en su estado actual, lo que le permite desarrollar y modificar características sin cambiar otras ramas / versiones. Cuando se completa una rama o cuando se alcanza un punto de control deseado, se puede combinar con otras ramas.
+    Push: Guarda los commits locales en el repositorio remoto.
+    Pull: Recupera las versiones más recientes de los archivos en el repositorio y se fusiona. Las sucursales que extraiga se fusionarán en la sucursal local actual, así que asegúrese de que sólo extraiga de la sucursal remota que corresponde a la rama en la que está trabajando actualmente.
+    Fetch: Recupera la versión más reciente de los archivos en las sucursales remotas sin fusionarlas en las sucursales locales. Puede realizar una búsqueda de git en cualquier momento para actualizar su copia local de una sucursal remota. Esta operación nunca cambia ninguna de sus propias ramas y es seguro hacerlo sin cambiar su copia de trabajo.
+    Revisión de cajas: Copia una sucursal remota a su repositorio local (o cambia a una sucursal local diferente).
+
+Clonación del repositorio de código de robot en NetBeans
+En NetBeans, vaya a Equipo> Clonar (o Equipo> Git> Clonar). Copie y pegue la URL del repositorio (que se encuentra en la página GitHub) en el campo de texto que aparece. Ingrese su información de acceso y haga clic en Siguiente.
+
+En la siguiente pantalla, verá una lista de "Sucursales remotas". Seleccione todas las sucursales y pulse Siguiente.
+
+Introduzca el directorio local en el que desea almacenar las copias locales del repositorio. Mantenga el nombre del clon igual y utilice los ajustes siguientes.
+
+Haga clic en "Finalizar" y NetBeans le pedirá que abra cualquier proyecto que se encuentre en el repositorio.
+Configuración del espacio de trabajo de NetBeans
+
+El Git Repository Browser en NetBeans hará que trabajar con Git sea mucho más fácil. Para mostrar el Navegador del repositorio, vaya a Equipo> Git> Navegador de repositorio.
+Creación de una nueva sucursal
+
+Cuando esté desarrollando una nueva función para el robot, cree una nueva rama. No debe trabajar directamente desde la rama principal. Para crear una nueva sucursal, haga clic con el botón derecho del ratón en una sucursal remota en el explorador del repositorio y seleccione "Revisión de comprobación". La rama de trabajo actual aparecerá en negrita en el navegador del repositorio.
+Cometer Cambios
+
+Antes de empujar el código modificado a una sucursal remota, primero debe confirmar localmente los cambios que ha realizado. Para confirmar los cambios, haga clic con el botón derecho en su proyecto NetBeans o en un archivo de su proyecto y seleccione Git> Commit.
+
+Antes de cometer, asegúrese de ingresar un mensaje de confirmación.
+Emprendedor
+
+Cuando desee actualizar el repositorio remoto con los cambios realizados localmente, debe presionar los cambios. Sólo puede empujar después de que haya comprometido o fusionado sucursales. Para empujar, haga clic derecho en su proyecto y seleccione Git> Remote> Push. Asegúrese de que la URL del repositorio de Git es correcta y pulse Siguiente. Seleccione las sucursales locales que desee enviar al repositorio remoto y pulse Siguiente. Pulse Terminar de nuevo.
+Fusión de sucursales
+
+Cuando haya terminado de trabajar en una función en particular en una sucursal distinta de "maestro", debe combinar los cambios con la sucursal principal. Para ello, haga clic con el botón derecho del ratón en la ramificación principal en el navegador del repositorio y seleccione Revisión de compra. Haga clic en Finalizar y, a continuación, haga clic con el botón derecho en la sucursal que desea fusionar con la rama principal y seleccione Revisión de combinación. Haga clic en las indicaciones y, a continuación, en Empujar para que sus cambios sean públicos.
